@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #f6e16b;
+}
+header {
+  display: flex;
+  background-color: #000000;
+  min-height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  margin-right: 12px;
+}
+nav a {
+  font-weight: 600;
+  padding-right: 11px;
+}
+nav a:hover {
+  background: linear-gradient(to right, #dc143c, #dc143c7f, #dc143c09);
+  color: white;
+}
+a h2:hover {
+  background: -webkit-linear-gradient(#320d95, #0073ff, #00cfb3, #00000057);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 680px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
+}
